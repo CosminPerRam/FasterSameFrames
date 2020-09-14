@@ -125,7 +125,7 @@ void work(JobManager *manager, cv::VideoCapture _cap, int id, int job_size, int 
 
     std::cout<<id<<" "<<id * job_size<<std::endl;
 
-    //cap.set(cv::CAP_PROP_POS_FRAMES, id * job_size);
+    cap.set(cv::CAP_PROP_POS_FRAMES, id * job_size);
 
     std::vector<cv::Mat> passed;
 

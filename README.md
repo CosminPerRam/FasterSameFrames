@@ -17,3 +17,6 @@ The usage can be shown by running:
 ```sh
 ./main --help
 ```
+
+### Warning
+Currently, multithreading is not working, working on a fix.
